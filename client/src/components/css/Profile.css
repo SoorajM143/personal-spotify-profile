@@ -1,0 +1,9 @@
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.mainPage__wrapper {
+  padding-left: 100px;
+}

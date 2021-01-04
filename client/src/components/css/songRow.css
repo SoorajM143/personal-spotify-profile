@@ -1,0 +1,59 @@
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.song__row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  -webkit-box-align: center;
+  margin-bottom: 30px;
+}
+
+.song__album-art {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  min-width: 50px;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.song__details {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 10px;
+}
+
+.song__name {
+  margin-bottom: 5px;
+}
+
+.song__album {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 1px;
+  color: rgb(155, 155, 155);
+  font-size: 14px;
+  margin-top: 3px;
+}
+.track__length {
+  color: rgb(155, 155, 155);
+  font-size: 14px;
+}
+
+.song__row:hover {
+  background-color: black;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.3, 0, 0.4, 1) 0s;
+}
+.songDetails__row {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 1px;
+  text-align: left;
+}

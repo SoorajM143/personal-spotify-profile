@@ -1,0 +1,126 @@
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.main__tab {
+  width: 100%;
+  margin: 0px auto;
+  padding: 80px;
+  max-width: 1400px;
+  min-height: 100vh;
+}
+
+.main__header {
+  display: flex;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.main__avatar > img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.main__avatar > h1 {
+  font-size: 40px;
+}
+
+.user__Details {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 20px;
+}
+
+.details_col {
+  text-align: center;
+}
+
+.details_total {
+  color: rgb(29, 185, 84);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.details_prop {
+  color: rgb(155, 155, 155);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.logout__btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-top: 30px;
+  padding: 12px 30px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.logout__btn:hover {
+  cursor: pointer;
+  background-color: rgb(78, 78, 78);
+}
+
+.user__preview-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.artists_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.songs_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.artists__row {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  -webkit-box-align: center;
+  padding: 5px;
+}
+
+.artists__pic {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  min-width: 50px;
+  margin-right: 20px;
+}
+
+.artists__name {
+  flex-grow: 1;
+  -webkit-box-flex: 1;
+  text-align: left;
+}
+
+.artists__row:hover {
+  background-color: black;
+  transition: all 0.25s cubic-bezier(0.3, 0, 0.4, 1) 0s;
+}

@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.login__page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  height: 100vh;
+}
+
+.login__button {
+  color: white;
+  background-color: rgb(29, 185, 84);
+  text-decoration: none;
+  min-width: 160px;
+  margin: 20px 0px 70px;
+  padding: 17px 35px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 30px;
+}
+
+.logo {
+  color: white;
+  font-size: 75px;
+}
+
+.login_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px 40px;
+}
+
+.login_logo > h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 44px;
+  margin-left: 20px;
+  font-weight: 100;
+}
